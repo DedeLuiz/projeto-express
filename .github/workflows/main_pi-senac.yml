@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 
 env:
-  PORT: 8080
+  PORT: 8181
   DB_PORT: 3306
   DB_USERNAME: 'professor'
   DB_PASSWORD: 'Senac123'
