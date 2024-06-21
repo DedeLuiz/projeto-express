@@ -3,7 +3,7 @@ import bodyParser from 'body-parser'
 import { AppDataSource } from './app-data-source.js'
 import { router } from './router.js'
 const app = express()
-const port = process.env.PORT || 8181
+const port = 8181
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(router())
